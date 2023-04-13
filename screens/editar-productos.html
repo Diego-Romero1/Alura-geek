@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/cabecera.css">
+    <link rel="stylesheet" href="/assets/css/editar-productos/editar-productos.css">
+    <link rel="stylesheet" href="/assets/css/starwars.css">
+    <link rel="stylesheet" href="/assets/css/contacto.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    <title>Todos Los Productos</title>
+</head>
+
+<body>
+    <header class="cabecera">
+        <section class="cabecera-menu">
+            <img src="../assets/images/Logo.png" alt="logo" class="cabecera-logo">
+            <form action="" method="get" class="cabecera-form">
+                <input type="search" placeholder="¿Qué desea buscar?" class="cabecera-buscador">
+                <button class="cabecera-boton_buscar">Buscar</button>
+            </form>
+        </section>
+    </header>
+    <main>
+        <section class="productos">
+            <div class="productos-descripcion">
+                <h1>Todos Los Productos</h1>
+                <button class="productos boton">Agregar Producto</button>
+            </div>
+            
+            <div class="starwars-caja" data-caja>
+                
+            </div>
+        </section>
+
+        <section class="contacto">
+            <img src="../assets/images/Logo.png" alt="" class="contacto-form_imagen"></img>
+            <div class="contacto-info">
+                <p class="contacto-descripcion">Quienes somos</p>
+                <p class="contacto-descripcion">Política de privacidad</p>
+                <p class="contacto-descripcion">Programa de fidelidad</p>
+                <p class="contacto-descripcion">Nuestras Tiendas</p>
+                <p class="contacto-descripcion">Quiero ser franquiciado</p>
+                <p class="contacto-descripcion">Anúncie aquí</p>
+            </div>
+            <form action="" method="POST" class="contacto-form">
+                <label for="Enviar" class="contacto-label">Hable con nosotros</label>
+                <input type="text" placeholder="Nombre" class="form-input_nombre" required maxlength="30">
+                <input type="text" placeholder="Apellido" class="form-input_apellido" required maxlength="30">
+                <input type="submit" name="Enviar" value="Enviar mensaje" class="contacto-input_submit">
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodapie">
+        <p class="rodapie-info">Desarrollado por Diego Romero</p>
+        <p class="rodapie-info">&copy;2023</p>
+    </footer>
+    <script type="module" src="../controllers/delete-controller.js"></script>
+
+</body>
+
+</html>

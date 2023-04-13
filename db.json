@@ -1,0 +1,25 @@
+{
+  "productos": [
+    {
+      "imagen": "/assets/images/dark-side.png",
+      "nombre": "Lord vader ",
+      "precio": "200.00",
+      "descripcion": "Disfraz de Lord Vader ",
+      "id": "3ef97afd-76fa-4f46-9916-3fd17a50a297"
+    },
+    {
+      "imagen": "/assets/images/pikachu.png",
+      "nombre": "pikachu",
+      "precio": "23.78",
+      "descripcion": "peluche de pikachu",
+      "id": "cf3c229f-e930-45bb-884c-63e0ad9c3c8e"
+    },
+    {
+      "imagen": "/assets/images/baby-joda.png",
+      "nombre": "gran joda",
+      "precio": "45.67",
+      "descripcion": "Mascara de joda",
+      "id": "5fe9b252-db6d-459a-8a8d-e86db6c40938"
+    }
+  ]
+}

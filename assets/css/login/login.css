@@ -1,0 +1,49 @@
+body{
+    background: #E5E5E5;
+}
+.container-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    margin: 5rem;
+}
+
+.container-titulo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 21px;
+    color: #464646;
+    padding: 1rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form-login{
+    width: 423px;
+    height: 63.13px;
+    left: calc(50% - 423px/2 - 0.5px);
+    top: 259.89px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border-style: none;
+}
+
+.form-login_boton {
+    background: #2A7AE4;
+    width: 423px;
+    height: 63.13px;
+    left: calc(50% - 423px/2 - 0.5px);
+    top: 259.89px;
+    border-radius: 4px;
+    border-style: none;
+    cursor: pointer;
+}

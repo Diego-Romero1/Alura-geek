@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/cabecera.css">
+    <link rel="stylesheet" href="../assets/css/contacto.css">
+    <link rel="stylesheet" href="../assets/css/agregar/agregar.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <title>add products</title>
+</head>
+
+<body>
+    <header class="cabecera">
+        <section class="cabecera-menu">
+            <img src="../assets/images/Logo.png" alt="logo" class="cabecera-logo">
+            <form action="" method="get" class="cabecera-form">
+                <input type="search" placeholder="¿Qué desea buscar?" class="cabecera-buscador">
+                <button class="cabecera-boton_buscar">Buscar</button>
+            </form>
+            <a href="#"><button class="cabecera-boton_login">Menú administrador</button></a>
+        </section>
+    </header>
+    <section class="agregar">
+        <div class="container">
+            <h1 class="container-titulo">Agregar nuevo producto</h1>
+            <form action="" class="container-form" data-form>
+                <input type="text" class="form-input" placeholder="URL de la imagen" required data-imagen>
+                <input type="text" class="form-input" placeholder="Categoria" required maxlength="20" data-categoria>
+                <input type="text" class="form-input" placeholder="Nombre" required maxlength="20" data-nombre>
+                <input type="text" class="form-input" placeholder="Precio" required maxlength="20" data-precio>
+                <input type="text" class="form-input_mensaje" placeholder="Descripcion" required maxlength="100" data-descripcion>
+                 <input type="submit" class="form-input_boton" value="Agregar">
+            </form>
+        </div>
+    </section>
+    
+
+    <section class="contacto">
+        <img src="../assets/images/Logo.png" alt="" class="contacto-form_imagen"></img>
+        <div class="contacto-info">
+            <p class="contacto-descripcion">Quienes somos</p>
+            <p class="contacto-descripcion">Política de privacidad</p>
+            <p class="contacto-descripcion">Programa de fidelidad</p>
+            <p class="contacto-descripcion">Nuestras Tiendas</p>
+            <p class="contacto-descripcion">Quiero ser franquiciado</p>
+            <p class="contacto-descripcion">Anúncie aquí</p>
+        </div>
+        <form action="" method="POST" class="contacto-form">
+            <label for="Enviar" class="contacto-label">Hable con nosotros</label>
+            <input type="text" placeholder="Nombre" class="form-input_nombre" required maxlength="30">
+            <input type="text" placeholder="Apellido" class="form-input_apellido" required maxlength="30">
+            <input type="submit" name="Enviar" value="Enviar mensaje" class="contacto-input_submit">
+        </form>
+    </section>
+    </main>
+
+    <footer class="rodapie">
+        <p class="rodapie-info">Desarrollado por Diego Romero</p>
+        <p class="rodapie-info">&copy;2023</p>
+    </footer>
+    <script type="module" src="../controllers/add-controller.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/node-uuid/1.4.8/uuid.min.js"></script>
+</body>
+
+</html>

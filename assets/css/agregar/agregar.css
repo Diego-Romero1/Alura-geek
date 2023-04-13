@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-titulo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.375rem;
+    color: #464646;
+    padding: 1rem;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form-input {
+    width: 34.938rem;
+    height: 3.5rem;
+    background: #FFFFFF;
+    border-radius: 0.25rem;
+    border-style: none;
+}
+
+.form-input_mensaje {
+    width: 34.938rem;
+    height: 5.125rem;
+    background: #FFFFFF;
+    border-radius: 0.25rem;
+    border-style: none;
+}
+
+.form-input_boton {
+    width: 34.938rem;
+    height: 3.188rem;
+    background: #2A7AE4;
+    border-style: none;
+}

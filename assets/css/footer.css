@@ -1,0 +1,16 @@
+.rodapie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    gap: 1rem;
+    background: #fff;
+}
+
+.rodapie-info {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+
+}

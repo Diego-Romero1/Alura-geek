@@ -1,0 +1,36 @@
+.starwars-buttens {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+ .boton-eliminar{
+    background-color: #BD2A2E;
+    color: azure;
+    width: 60px;
+    height: 20px;
+    border-radius: 3px;
+    border: 1px solid #BD2A2E;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    
+}
+.boton-eliminar:hover{
+    background-color: #ff0000;
+}
+
+.boton-editar {
+    background-color: #008000;
+    color: azure;
+    width: 60px;
+    height: 20px;
+    border-radius: 3px;
+    border: 1px solid #008000;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.boton-editar:hover{
+    background-color: #03A64A;
+    border: #03A64A;
+}
